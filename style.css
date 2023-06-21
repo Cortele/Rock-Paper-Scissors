@@ -1,0 +1,61 @@
+:root {
+    --fw-regular: 400;
+    --fw-bold: 700;
+}
+
+body {
+    background-color: hsl(202, 40%, 57%);
+    display: grid;
+    font-family: 'Lato', sans-serif;
+    place-content: center;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: var(--fw-bold);
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: var(--fw-regular);
+    text-align: center;
+}
+
+li {
+    font-size: 4rem;
+ }
+
+ span {
+    font-weight: var(--fw-regular);
+ }
+
+li:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 150ms;
+}
+
+.flex {
+    display: flex;
+}
+
+.focus {
+    opacity: .5;
+}
+
+.hero-selection {
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.information-container {
+    background-color: white;
+    border-radius: 15px;
+    padding: 2em;
+}
+
+
